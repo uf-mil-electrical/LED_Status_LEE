@@ -1,10 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ml99\Documents\GIT\LED_Status_LEE\PCB\LedStatus.PcbDoc
-Date     : 5/10/2020
-Time     : 8:26:16 PM
-
-WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
-   Polygon named: Abstract polygon ID On Top Layer
+Date     : 5/14/2020
+Time     : 12:17:26 PM
 
 WARNING: Zero hole size multi-layer pad(s) detected
    Pad U2-18(3937.048mil,2761.496mil) on Multi-Layer on Net CAN1_TX
@@ -16,24 +13,16 @@ Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (7.875mil < 10mil) Between Pad U2-17(3917.362mil,2761.496mil) on Top Layer And Pad U2-18(3937.048mil,2761.496mil) on Multi-Layer 
    Violation between Clearance Constraint: (7.873mil < 10mil) Between Pad U2-18(3937.048mil,2761.496mil) on Multi-Layer And Pad U2-19(3956.732mil,2761.496mil) on Top Layer 
    Violation between Clearance Constraint: (8.78mil < 10mil) Between Pad U2-18(3937.048mil,2761.496mil) on Multi-Layer And Track (3916.142mil,2761.496mil)(3917.362mil,2761.496mil) on Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Track (4395mil,2850mil)(4919.142mil,2850mil) on Bottom Layer And Track (4407.716mil,2809.212mil)(4478.504mil,2880mil) on Bottom Layer 
-Rule Violations :4
+Rule Violations :3
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Track (4395mil,2850mil)(4919.142mil,2850mil) on Bottom Layer And Track (4407.716mil,2809.212mil)(4478.504mil,2880mil) on Bottom Layer Location : [X = 4448.504mil][Y = 2850mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Track (4280mil,2870mil)(4348.284mil,2870mil) on Bottom Layer And Pad U2-35(4283.504mil,2871.732mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetQ3_1 Between Track (2911.196mil,3555.196mil)(3186.496mil,3555.196mil) on Bottom Layer And Track (2911.196mil,3555.196mil)(2955mil,3555.196mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net LED2 Between Track (3415mil,3780mil)(3415mil,3790.512mil) on Bottom Layer And Track (3320mil,3885.512mil)(3415mil,3790.512mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net LED2 Between Track (3807.5mil,3345mil)(3810mil,3345mil) on Bottom Layer And Track (3627.5mil,3525mil)(3807.5mil,3345mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VDDC Between Track (3800mil,3565mil)(4000mil,3365mil) on Top Layer And Track (4000mil,3365mil)(4074.842mil,3290.158mil) on Bottom Layer 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-   Violation between Modified Polygon: Polygon Not Repour After Edit  () on Top Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=8mil) (Max=150mil) (Preferred=10mil) (All)
 Rule Violations :0
@@ -92,20 +81,12 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
 Rule Violations :9
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (2911.196mil,3555.196mil)(2955mil,3555.196mil) on Top Layer 
-   Violation between Net Antennae: Track (3320mil,3885.512mil)(3415mil,3790.512mil) on Top Layer 
-   Violation between Net Antennae: Track (3415mil,3780mil)(3415mil,3790.512mil) on Bottom Layer 
-   Violation between Net Antennae: Track (3627.5mil,3525mil)(3807.5mil,3345mil) on Top Layer 
-   Violation between Net Antennae: Track (3800mil,3565mil)(4000mil,3365mil) on Top Layer 
-   Violation between Net Antennae: Track (3915mil,3289.45mil)(3915mil,3345mil) on Bottom Layer 
-   Violation between Net Antennae: Track (4000mil,3365mil)(4074.842mil,3290.158mil) on Bottom Layer 
-   Violation between Net Antennae: Track (4280mil,2870mil)(4348.284mil,2870mil) on Bottom Layer 
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 51
+Violations Detected : 35
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
